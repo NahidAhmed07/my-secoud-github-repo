@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Anaheim', sans-serif;
+}
+#main{
+  background-color:#fafad2;
+  height: 200vh;
+  width: 100%;
+  padding-top: 50px;
+
+  }
+.head{
+  width: 75vw;
+  
+  margin: 50px auto;
+  border: 1px solid rgb(200, 198, 198);
+  border-radius: 20px;
+  padding: 0 20px;
+  background-color: #fff;
+}
+.head h2{
+  text-align: center;
+  margin: 30px 0px;
+}
+.head p{
+  font-size: 1.25rem;
+}
+
+.form{
+  height: auto;
+  border: 1px solid rgb(214, 212, 212);
+  margin: 20px ;
+  font-size: 1.1rem;
+  padding:10px 20px;
+}
+.form .input{
+  padding: 2px;
+  width: 200px;
+  font-size: 0.95rem;
+  margin: 10px 0;
+  border-radius: 2px;
+  border: 1px solid rgb(136, 135, 135);
+}
+.checkbox input{
+  margin: 5px 0;
+}
+.form option{
+  font-size: 1rem;
+}
+.form .input1{
+  padding: 2px 5px;
+  font-size: 0.95rem;
+  margin: 10px 0;
+  border-radius: 2px;
+  border: 1px solid rgb(136, 135, 135);
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic html form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">   
+</head>
+<body>
+  <main id="main">
+    <div class="head">
+      <h2>Application For Permission To Date My Daughter</h2>
+      <p><strong>Note:</strong> Form is to be completed at least 21 days prior to date</p>
+      <div class="form" action="#">
+        <strong>Parsonal Information</strong>
+        <br>
+        <!-- for name  -->
+        <label for="name">Name:</label>
+        <input class="input" type="text" name="name" placeholder="Enter your name:"> <br>
+        <!-- for address  -->
+        <label for="addr">Address:</label>
+        <input class="input" type="text" name="addr" placeholder="Enter your Address:"><br>
+        <!-- for email  -->
+        <label for="email">Email:</label>
+        <input class="input" type="email" name="email" placeholder="Enter your Email :"><br>
+        <!-- for phone number -->
+        <label for="number"> Phone Number:</label>
+        <input class="input" type="number" pattern="[0-9]{11}" name="number" placeholder="Enter your Number :"><br>
+        <!-- for IQ -->
+        <label for="iq"> IQ:</label>
+        <input class="input" type="number" min="0" max="100" title="typing eror" pattern="[0-9]{3}" name="iq" placeholder="Enter your IQ:"><br>
+        <!-- for radio     -->
+        <!-- <label for="radio"> Gender</label><br> -->
+        <p>Gender:</p> 
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" name="gender" id="Other" value="Other">
+        <label for="Other">Other</label><br>
+        <!-- radio  end   -->
+        <!-- for date  -->
+        <label for="date">Date of Proposed Outing:</label>
+        <input type="date" class="input">
+      </div>
+
+      <!-- checkbox section  -->
+      <div class="form checkbox">
+        <p>Check All The Apply</p><br>
+        <!-- checkbox1 -->
+        <input type="checkbox" name="checkbox" id="checkbox1" >
+        <label for="checkbox1">I have tattoos and/or piercings<label><br>
+          <!-- checkbox2 -->
+        <input type="checkbox" name="checkbox" id="checkbox2" >
+        <label for="checkbox2">I am more than 2 years older than my daughter</label><br>
+        <!-- checkbox3 -->
+        <input type="checkbox" name="checkbox" id="checkbox3" >
+        <label for="checkbox3">I own a panel van or V8 ute</label> <br>
+        <!-- checkbox4 -->
+        <input type="checkbox" checked name="checkbox" id="checkbox4" >
+        <label for="checkbo4">I work full-time</label><br>
+        <!-- checkbox5 -->
+        <input type="checkbox" checked name="checkbox" id="checkbox5" >
+        <label for="checkbox5">My parents are rich</label> <br>
+        <!-- checkbox6 -->
+        <input type="checkbox" checked  name="checkbox" id="checkbox6" >
+        <label for="checkbox6">Is the date at a well lit public location</label>
+      </div>
+      <div class="form">
+        <label for="option">Political Persuasion:</label> 
+        <input class="input1" placeholder="Left Wing" list="item1" >
+        <datalist id="item1">
+          <option value="Left Wing">
+          <option value="Right Wing">
+          <option value="Top Wing">
+          <option value="Bottom Wing">
+        </datalist>
+        <!-- second list input list  -->
+        <label for="option">Education Level Completed:</label> 
+        <input class="input1" placeholder="University" list="item1" >
+        <datalist id="item1">
+          <option value="University">
+          <option value="Collage">
+          <option value="School">
+          <option value="None">
+        </datalist>
+
+        </select>
+      </div>
+    </div>
+    
+
+  </main>
+</body>
+</html>
